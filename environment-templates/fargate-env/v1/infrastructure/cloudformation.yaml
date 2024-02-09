@@ -4,7 +4,7 @@ Description: A stack for deploying containerized applications in AWS Fargate.
 
 Mappings:
   # The VPC and subnet configuration is passed in via the environment spec.
-  # agregando ajuste 1
+  # agregando ajuste 2
   SubnetConfig:
     VPC:
       CIDR: '{{ environment.inputs.vpc_cidr}}'
